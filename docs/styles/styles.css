@@ -1,0 +1,86 @@
+/* References:
+Color Palette
+
+#048A81 Dark Cyan
+#06D6A0 Emerald
+#54C6EB sky aqua
+#8A89C0 Lavender Gray
+#CDA2AB Rosy Taupe (grayish pink)
+
+Fonts:
+Times New Roman, Times, Serif
+*/
+/*******everything here is the same on all pages*********/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#048A81;
+}
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #048A81;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 60px 60px;
+}
+.nav-link:hover {
+    background-color: #54C6EB;
+    color: black;
+}
+
+/********** Everything below here is exclusive (ish) to the home page**********/
+#hero {
+    background-color: #06D6A0;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+}
+#hero-msg {
+    align-self: center;
+    text-align: center;
+    font-size: 2em;
+}
+#sub-header {
+    text-align: center;
+    font-size: 1.15em;
+    color: white;
+}
+/*********Footer (should be the same on every page)**********/
+footer {
+    background-color:#048A81;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 70px;
+    border: 2px solid white;
+}
+footer p {
+    align-self: center;
+    color: white;
+    padding-left: 30px;
+}
+#footer-links {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-link {
+    text-decoration: none;
+    padding: 26px;
+    color: white;
+}
+.footer-link:hover {
+    background-color: #54C6EB;
+    color: black;
+}
