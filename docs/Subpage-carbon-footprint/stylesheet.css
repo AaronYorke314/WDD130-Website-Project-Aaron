@@ -1,5 +1,22 @@
 /*********Header******/
 
+header {
+  background-color: #048A81;
+  height: 46px;
+  margin: -8px;
+  .topnav {
+    padding-top: 13px;
+  }
+}
+
+footer {
+  background-color: #048A81;
+  height: 50px;
+  margin: -8px;
+  padding-top: 30px;
+  text-align: center;
+}
+
 .topnav a {
   float: center;
   color: #f2f2f2;
@@ -51,3 +68,42 @@ body{background-color: #54C6EB;}
   color: white;}
 #fire1{display:flex;flex-direction: row-reverse;}
 #fire2{display: flex;;}
+
+
+#where-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 40px;
+  p {
+    font-size: 16px;
+  }
+  img {
+    height: 65%;
+    margin: auto;
+  }
+}
+
+#where-footer a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#where-footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#where-footer a.active {
+  background-color: #CDA2AB;
+  color: white;
+}
+
+#where-header {
+  margin-top: 50px;
+  font-size: 45px;
+}
